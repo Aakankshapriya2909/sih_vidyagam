@@ -1,0 +1,37 @@
+{
+  "app": {
+    "name": "VidyaGam",
+    "version": "1.0.0",
+    "description": "Interactive Educational Gaming Platform"
+  },
+  "languages": {
+    "en": "English",
+    "hi": "Hindi",
+    "or": "Odia"
+  },
+  "classes": [6, 7, 8, 9, 10, 11, 12],
+  "subjects": {
+    "math": {
+      "name": "Mathematics",
+      "icon": "calculator",
+      "color": "#ff6b6b"
+    },
+    "science": {
+      "name": "Science",
+      "icon": "flask",
+      "color": "#4ecdc4",
+      "subSubjects": ["physics", "chemistry", "biology"]
+    },
+    "gk": {
+      "name": "General Knowledge",
+      "icon": "book-open",
+      "color": "#95e1d3"
+    }
+  },
+  "features": {
+    "gamification": true,
+    "multiLanguage": true,
+    "progressTracking": true,
+    "leaderboard": true
+  }
+}
